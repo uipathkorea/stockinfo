@@ -9,7 +9,7 @@
   <mva:VisualBasic.Settings>
     <x:Null />
   </mva:VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>882,963</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>911,1062</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="33">
@@ -49,7 +49,7 @@
     </scg:List>
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
-    <scg:List x:TypeArguments="AssemblyReference" Capacity="31">
+    <scg:List x:TypeArguments="AssemblyReference" Capacity="62">
       <AssemblyReference>System.Activities</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
@@ -81,9 +81,10 @@
       <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
       <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
-  <Sequence sap:VirtualizedContainerService.HintSize="526,798" sap2010:WorkflowViewState.IdRef="Sequence_2">
+  <Sequence sap:VirtualizedContainerService.HintSize="526,897" sap2010:WorkflowViewState.IdRef="Sequence_2">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Boolean" Name="NotFound" />
       <Variable x:TypeArguments="ui:QueueItem" Name="qItem" />
@@ -119,7 +120,7 @@
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="376,763" sap2010:WorkflowViewState.IdRef="Sequence_1">
+          <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="376,765" sap2010:WorkflowViewState.IdRef="Sequence_1">
             <Sequence.Variables>
               <Variable x:TypeArguments="x:String" Name="CurPrice" />
               <Variable x:TypeArguments="x:String" Name="MaxPrice" />
@@ -131,7 +132,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '종목명, 종목코드를 입력해주세요'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,226" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="[in_StockName]">
+            <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into '종목명, 종목코드를 입력해주세요'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="334,228" sap2010:WorkflowViewState.IdRef="NTypeInto_1" Text="[in_StockName]">
               <uix:NTypeInto.Target>
                 <uix:TargetAnchorable BrowserURL="http://finance.daum.net/" DesignTimeRectangle="1972, 364, 656, 72" ElementType="InputBox" FriendlyName="'종목명, 종목코드를'" FullSelectorArgument="&lt;webctrl id='boxSearchbar' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl id='boxSearchbar' tag='DIV' type='' aaname='                                                                            ' /&gt;" ImageBase64="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" InformativeScreenshot="846609bf29e93947e60a8ea3cfc5b48a.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Daum 금융' /&gt;" SearchSteps="Selector, FuzzySelector, Image" Text="종목명, 종목코드를 입력해주세요&#xA;            &#xA;            검색" TextMethod="AttributeText" TextSelector="&lt;webctrl tag='DIV' type='' /&gt;">
                   <uix:TargetAnchorable.Anchors>
@@ -409,6 +410,7 @@
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
     </uix:NApplicationCard>
+    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="484,59" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;테스트용 메세지 박스&quot;]" />
     <If Condition="[qItem IsNot Nothing]" sap:VirtualizedContainerService.HintSize="484,210" sap2010:WorkflowViewState.IdRef="If_5">
       <If.Then>
         <ui:SetTransactionStatus ContinueOnError="{x:Null}" Reason="{x:Null}" ServiceBaseAddress="{x:Null}" TimeoutMS="{x:Null}" DisplayName="Set Transaction Status" ErrorType="Business" FolderPath="DEV" sap:VirtualizedContainerService.HintSize="200,22" sap2010:WorkflowViewState.IdRef="SetTransactionStatus_1" Status="Successful" TransactionItem="[qItem]">
@@ -416,18 +418,10 @@
             <scg:Dictionary x:TypeArguments="x:String, InArgument" />
           </ui:SetTransactionStatus.Analytics>
           <ui:SetTransactionStatus.Output>
-            <InArgument x:TypeArguments="x:Int32" x:Key="Price">
-              <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="out_CurrentProce" />
-            </InArgument>
-            <InArgument x:TypeArguments="x:Int32" x:Key="MaxPrice">
-              <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="out_MaxPrice" />
-            </InArgument>
-            <InArgument x:TypeArguments="x:Int32" x:Key="MinPrice">
-              <mva:VisualBasicValue x:TypeArguments="x:Int32" ExpressionText="out_MinPrice" />
-            </InArgument>
-            <InArgument x:TypeArguments="x:String" x:Key="ErrorMessage">
-              <mva:VisualBasicValue x:TypeArguments="x:String" ExpressionText="out_ErrorMessage" />
-            </InArgument>
+            <InArgument x:TypeArguments="x:Int32" x:Key="Price">[out_CurrentProce]</InArgument>
+            <InArgument x:TypeArguments="x:Int32" x:Key="MaxPrice">[out_MaxPrice]</InArgument>
+            <InArgument x:TypeArguments="x:Int32" x:Key="MinPrice">[out_MinPrice]</InArgument>
+            <InArgument x:TypeArguments="x:String" x:Key="ErrorMessage">[out_ErrorMessage]</InArgument>
           </ui:SetTransactionStatus.Output>
         </ui:SetTransactionStatus>
       </If.Then>
