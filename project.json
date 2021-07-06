@@ -44,12 +44,13 @@
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "809051a0-d443-4016-91b4-568313d52e94",
+      "uniqueId": "924f8941-f0f4-4b6f-863f-15b8f47f8876",
       "input": [],
       "output": []
     }
   ],
   "isTemplate": false,
   "templateProjectData": {},
-  "publishData": {}
+  "publishData": {},
+  "targetFramework": "Legacy"
 }
