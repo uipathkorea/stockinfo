@@ -3,17 +3,16 @@
   "description": "주식정보 조회 프로세스 ",
   "main": "Main.xaml",
   "dependencies": {
-    "Druid.UiPath.Activities": "[1.0.7]",
-    "UiPath.Excel.Activities": "[2.9.3]",
-    "UiPath.Mail.Activities": "[1.9.3]",
-    "UiPath.System.Activities": "[20.10.1]",
-    "UiPath.UIAutomation.Activities": "[20.10.6]"
+    "UiPath.Excel.Activities": "[2.10.4]",
+    "UiPath.Mail.Activities": "[1.10.5]",
+    "UiPath.System.Activities": "[21.4.1]",
+    "UiPath.UIAutomation.Activities": "[21.4.4]"
   },
   "webServices": [],
   "entitiesStores": [],
   "schemaVersion": "4.0",
   "studioVersion": "20.10.2.0",
-  "projectVersion": "1.0.7",
+  "projectVersion": "1.0.15",
   "runtimeOptions": {
     "autoDispose": false,
     "isPausable": true,
